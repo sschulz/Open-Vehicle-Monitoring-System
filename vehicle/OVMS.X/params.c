@@ -35,7 +35,7 @@
 // The following data can be changed by sending SMS commands, and will survive a reboot
 #pragma romdata eedata=0xf00000
 rom char EEparam[PARAM_MAX][PARAM_MAX_LENGTH]
-  = {"MARKPHONE","OVMS","K","","","","","","",""};
+  = {"MARKPHONE","OVMS","K","","","","","","","","35"};
 #pragma romdata
 
 #pragma udata
